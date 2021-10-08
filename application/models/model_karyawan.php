@@ -84,7 +84,7 @@ class model_karyawan extends CI_Model{
     }
 
 	function hapus($id){
-		return $this->db->delete($this->table, array('id' => $id));
+		return $this->db->delete($this->_table, array('id' => $id));
 	}
 
 }

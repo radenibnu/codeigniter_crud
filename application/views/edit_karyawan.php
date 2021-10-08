@@ -25,7 +25,7 @@
             <?php foreach ($karyawan as $row) { ?>
             <form action="<?php echo base_url(). 'welcome/update' ?>" method="POST">
 
-                <input type="hidden" name="id">
+                <input type="hidden" name="id" value="<?= $row->id ?>">
 
                 <div class="form-group row">
                     <label for="staticEmail" class="col-sm-2 col-form-label">NIP</label>

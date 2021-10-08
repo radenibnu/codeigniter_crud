@@ -17,7 +17,7 @@
             <h4 class="mb-3">Tambah Data Karyawan</h4>
             <?php if ($this->session->flashdata('success')): ?>
             <div class="alert alert-success" role="alert">
-            <?php echo $this->session->flashdata('success');?>. <u><a href="<?php echo base_url();?>welcome" style="color: #155724">Lihat data mahasiswa</a></u>
+            <?php echo $this->session->flashdata('success');?>. <u><a href="<?php echo base_url();?>" style="color: #155724">Lihat data mahasiswa</a></u>
             </div>               
             <?php endif;?>
             <form action="<?php echo base_url(). 'welcome/tambah_aksi' ?>" method="POST">

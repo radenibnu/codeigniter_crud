@@ -57,7 +57,7 @@
                             <td>
                                 <a href="<?php echo base_url();?>welcome/edit/<?php echo $data->id;?>" class="btn btn-primary btn-sm">Edit</a>
                   
-                                <a href="<?php echo base_url();?>mahasiswa/hapusdata/<?php echo $data->id;?>" class="btn btn-danger btn-sm">Hapus</a>
+                                <a href="<?php echo base_url();?>welcome/hapusdata/<?php echo $data->id;?>" class="btn btn-danger btn-sm">Hapus</a>
                             </td>
                         </tr>
                         <?php } ?>
